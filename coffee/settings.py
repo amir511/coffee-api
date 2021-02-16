@@ -25,7 +25,9 @@ SECRET_KEY = "w%$t^=r7qk^l98t^8lhus!)a#%9j)gj=$f7z$@9x-vphhn6)zq"  # nosec
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True  # nosec
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "coffee-products-api.herokuapp.com",
+]
 
 
 # Application definition
@@ -47,7 +49,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 ROOT_URLCONF = "coffee.urls"
