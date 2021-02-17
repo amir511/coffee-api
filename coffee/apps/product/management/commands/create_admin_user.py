@@ -8,8 +8,9 @@ class Command(BaseCommand):
     help = "Automatically create admin user"
 
     def handle(self, *args, **kwargs):
-        admin_user = User(username="admin")
-        admin_user.set_password("changeme")
-        admin_user.is_superuser = True
-        admin_user.is_staff = True
-        admin_user.save()
+        admin_user, created = User.objects.get_or_create(username="admin")
+        if created:
+            admin_user.set_password("changeme")
+            admin_user.is_superuser = True
+            admin_user.is_staff = True
+            admin_user.save()
