@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'coffee.apps.product',
+    "coffee.apps.product",
 ]
 
 MIDDLEWARE = [
@@ -80,8 +80,12 @@ WSGI_APPLICATION = "coffee.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "coffee_db",
+        "USER": "coffee",
+        "PASSWORD": "coffee",
+        "HOST": "localhost",
+        "PORT": "",
     }
 }
 
