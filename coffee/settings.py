@@ -26,6 +26,7 @@ SECRET_KEY = "w%$t^=r7qk^l98t^8lhus!)a#%9j)gj=$f7z$@9x-vphhn6)zq"  # nosec
 DEBUG = True  # nosec
 
 ALLOWED_HOSTS = [
+    "127.0.0.1",
     "coffee-products-api.herokuapp.com",
 ]
 
