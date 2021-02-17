@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "coffee.apps.product",
     "rest_framework",
+    "drf_yasg",
 ]
 
 MIDDLEWARE = [
