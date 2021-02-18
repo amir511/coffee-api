@@ -1,0 +1,317 @@
+[
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "CM001",
+            "product_type": "small",
+            "water_line_compatible": false,
+            "model_type": "base"
+        }
+    },
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "CM002",
+            "product_type": "small",
+            "water_line_compatible": false,
+            "model_type": "premium"
+        }
+    },
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "CM003",
+            "product_type": "small",
+            "water_line_compatible": true,
+            "model_type": "deluxe"
+        }
+    },
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "CM101",
+            "product_type": "large",
+            "water_line_compatible": false,
+            "model_type": "base"
+        }
+    },
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "CM102",
+            "product_type": "large",
+            "water_line_compatible": true,
+            "model_type": "premium"
+        }
+    },
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "CM103",
+            "product_type": "large",
+            "water_line_compatible": true,
+            "model_type": "deluxe"
+        }
+    },
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "EM001",
+            "product_type": "espresso",
+            "water_line_compatible": false,
+            "model_type": "base"
+        }
+    },
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "EM002",
+            "product_type": "espresso",
+            "water_line_compatible": false,
+            "model_type": "premium"
+        }
+    },
+    {
+        "model": "product.coffeemachine",
+        "fields": {
+            "SKU_number": "EM003",
+            "product_type": "espresso",
+            "water_line_compatible": true,
+            "model_type": "deluxe"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP001",
+            "product_type": " small",
+            "coffee_flavor": "vanilla",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP003",
+            "product_type": "small",
+            "coffee_flavor": "vanilla",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP011",
+            "product_type": "small",
+            "coffee_flavor": "caramel",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP013",
+            "product_type": "small",
+            "coffee_flavor": "caramel",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP021",
+            "product_type": "small",
+            "coffee_flavor": "psl",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP023",
+            "product_type": "small",
+            "coffee_flavor": "psl",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP031",
+            "product_type": "small",
+            "coffee_flavor": "mocha",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP033",
+            "product_type": "small",
+            "coffee_flavor": "mocha",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP041",
+            "product_type": "small",
+            "coffee_flavor": "hazelnut",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP043",
+            "product_type": "small",
+            "coffee_flavor": "hazelnut",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP101",
+            "product_type": "large",
+            "coffee_flavor": "vanilla",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP103",
+            "product_type": "large",
+            "coffee_flavor": "vanilla",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP111",
+            "product_type": "large",
+            "coffee_flavor": "caramel",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP113",
+            "product_type": "large",
+            "coffee_flavor": "caramel",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP121",
+            "product_type": "large",
+            "coffee_flavor": "psl",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP123",
+            "product_type": "large",
+            "coffee_flavor": "psl",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP131",
+            "product_type": "large",
+            "coffee_flavor": "mocha",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP133",
+            "product_type": "large",
+            "coffee_flavor": "mocha",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP141",
+            "product_type": "large",
+            "coffee_flavor": "hazelnut",
+            "pack_size": "1"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "CP143",
+            "product_type": "large",
+            "coffee_flavor": "hazelnut",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "EP003",
+            "product_type": "espresso",
+            "coffee_flavor": "vanilla",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "EP005",
+            "product_type": "espresso",
+            "coffee_flavor": "vanilla",
+            "pack_size": "5"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "EP007",
+            "product_type": "espresso",
+            "coffee_flavor": "vanilla",
+            "pack_size": "7"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "EP013",
+            "product_type": "espresso",
+            "coffee_flavor": "caramel",
+            "pack_size": "3"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "EP015",
+            "product_type": "espresso",
+            "coffee_flavor": "caramel",
+            "pack_size": "5"
+        }
+    },
+    {
+        "model": "product.coffeepod",
+        "fields": {
+            "SKU_number": "EP017",
+            "product_type": "espresso",
+            "coffee_flavor": "caramel",
+            "pack_size": "7"
+        }
+    }
+]
