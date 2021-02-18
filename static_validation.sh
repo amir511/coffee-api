@@ -1,9 +1,9 @@
 echo 'Running black'
-black -S --check . || exit 1
+black -l 120 -S --check . || exit 1
 echo 'black produced no errors.'
 
 echo 'Running isort'
-isort -rc --check-only . || exit 1
+isort --profile black --check-only . || exit 1
 echo 'isort produced no errors.'
 
 echo 'Running bandit'
