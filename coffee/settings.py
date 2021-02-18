@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 import dj_database_url
@@ -17,15 +18,18 @@ import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+ON_HEROKU = os.environ.get("ON_HEROKU")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "w%$t^=r7qk^l98t^8lhus!)a#%9j)gj=$f7z$@9x-vphhn6)zq"  # nosec
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True  # nosec
+if ON_HEROKU:
+    SECRET_KEY = os.environ.get("SECRET_KEY")
+    DEBUG = False
+else:
+    SECRET_KEY = "w%$t^=r7qk^l98t^8lhus!)a#%9j)gj=$f7z$@9x-vphhn6)zq"  # nosec
+    DEBUG = True  # nosec
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
