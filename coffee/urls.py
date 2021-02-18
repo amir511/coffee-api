@@ -19,6 +19,8 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions, routers
 
+from coffee.apps.product import urls as product_urls
+
 schema_view = get_schema_view(
     openapi.Info(
         title="Coffee API",
@@ -44,9 +46,8 @@ urlpatterns = [
         schema_view.with_ui("swagger", cache_timeout=0),
         name="schema-swagger-ui",
     ),
-    re_path(
-        r"^redoc/$", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"
-    ),
-    path(r"api-auth/", include("rest_framework.urls", namespace="rest_framework")),
-    path(r"", include(router.urls)),
+    re_path(r"^redoc/$", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
+    path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
+    path("", include(router.urls)),
+    path("api/v1/", include(product_urls), name="product_urls"),
 ]
