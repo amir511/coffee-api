@@ -30,4 +30,4 @@ jobs:
         sh static_validation.sh
     - name: Run tests
       run: |
-        python manage.py test
+        python manage.py test --settings=coffee.settings_testing
