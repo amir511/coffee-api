@@ -9,3 +9,4 @@
 * Admin page to manipulate data directly on `/admin/` with username = `admin` and password = `changeme`
 * machines enpoint can be filtered by : `product_type`, `water_line_compatible`, `model_type`.
 * pods endpoint can be filtered by: `product_type`, `coffee_flavor` , `pack_size`.
+* On every push, code is checked against static validation tools (black, isort and bandit) and unit tests are run.
